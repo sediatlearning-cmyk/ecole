@@ -40,6 +40,7 @@ class CourseDao(Dao[Course]):
             course = None
 
         return course
+    """TODO : gerer les exceptions """
 
     def update(self, course: Course) -> bool:
         """Met à jour en BD l'entité Course correspondant à course, pour y correspondre
